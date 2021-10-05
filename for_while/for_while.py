@@ -78,7 +78,7 @@ while b != 5:
 nincs_talalat = True
 keresett =3
 kor = 0
-while nincs_talalat or kor<len(lista1):
+while nincs_talalat and kor<len(lista1):
     print(f"while, keresem {kor}. kör")
     if lista1[kor]==keresett :
         print("Van találat: ")
