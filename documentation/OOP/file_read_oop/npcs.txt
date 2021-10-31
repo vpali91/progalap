@@ -1,0 +1,10 @@
+Belethor,breton,100,False
+Sheogorath,daedric,100,True
+M'aiq the Liar,khajiit,100,True
+J'zargo,khajiit,100,False
+Cicero,imperial,100,False
+Durak,orc,100,False
+Serana,nord,100,True
+Ingjard,nord,100,False
+Lydia,nord,100,True
+Faendal,bosmer,100,False
