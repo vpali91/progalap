@@ -1,0 +1,15 @@
+Készíts egy olyan programot, ami bekér egy számot a 
+felhasználótól, ami egy egész szám, ez lesz a bruttó bére. 
+Ellenőrizd, hogy szám-e, ha nem kérd be újra.
+Funkció(k) segítségével számold ki a nettó bért és a 
+járulékokat.
+szja: 15%
+TB járulék: 18,5%
+nettó bér = Bruttó bér - (szja+TB járulék)
+Txt file neve: gipsz_jakab.txt
+A bérszámfejtőlapot írd ki egy txt fájlba így:
+Bérszámfejtőlap
+Bruttó bér: 100000 Ft
+Nettó bér: 66500 Ft
+TB járulék: 18500 Ft
+SZJA: 15000 Ft
