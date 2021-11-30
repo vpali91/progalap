@@ -1,0 +1,35 @@
+Készíts el egy bérköltség számító programot, ami bekéri a nettó bért(ezt kapod kézhez), egy txt fájlba menti számítást, ami tartalmazza, Bérköltséget diákként és rendes munkaviszonyban, a nettó bérét (amiből le van vonva az adó és járulékok).
+A bérköltség lap végén legyen egy keltezés a mai dátummal, pl: "Kelt: Szeged, 2020.12.03.".
+
+Tippek a megoldáshoz:
+# Készíts egy osztályt amelyben a számításokat fogja végezni a program (1 pont)
+# Készíts egy osztályt, amely a kiíratásért felel (1 pont)
+# Készíts egy futtatható osztályt, amelyben bekéred a nettó bért (2 pont)
+# Inputbekérésnél jelezze a program ha a bérnél nem számot adtak meg. (1 pont)
+# A számításokért felelő osztályban: 
+# Hozz létre változókat a diák és a rendes munkaviszony bérköltségnek, a nettó bérnek. (1 pont) 
+# Hozz létre egy konstruktort, ami a nettó bért várja inputként (1 pont)
+# Hozz létre egy metódust, ami kiszámolja a diákmunka és a rendes munkaviszony bérköltégét, ezekkel felülírja a létrehozott globális változók értékét (2 pont)
+# A nyomtatásért felelő osztályban hozz létre egy konstruktort, ami a futtatható osztályból várja a nettó bért. (1 pont)
+# Hozz létre egy metódust, ami a kiíratásért felel majd (1 pont)
+# A kiíratásért felelő metódusban példányosítsd a számításért felelő osztályból egy objektumot, majd hívd meg az objektumhoz tartozó számításokért felelő metódust (2 pont)
+# Írasd ki txt fájlba a bérköltséges lap tartalmát, amely tartalmazza a nettó bért, a diákmunka és a rendes munkaviszony bérköltségét tételesen felsorolva. (2 pont)
+# A txt fájl neve tartalmazza az ékezetek nélküli saját neved snake case-ben, pl: gipsz_jakab.txt (1 pont)
+# A bérszámfejtő lap végén legyen a mai dátum keltezésként (1 pont)
+# A futtatható osztályból példányosítsd a kiíratásért felelős osztályt és hívd meg a kiíratás metódusát, fusson le a program helyesen. (1 pont)
+
+Diák bérköltség = nettó * 1.15
+Rendes munkaviszony bérköltség = nettó * 1.83
+ 
+
+************************************************************************************
+
+Példa: A program konzolban bekéri a munkavállaló nevét, utána a bruttó bért.
+A kigenerált txt fájl tartalma:
+
+Bérköltség lap
+Nettó bér: 100000.0 Ft
+Diák bérköltség: 115000.0 Ft
+Rendes munkaviszony bérköltség: 183000.0 Ft
+
+Kelt: Szeged,2020/12/14
