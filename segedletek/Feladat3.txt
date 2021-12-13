@@ -1,0 +1,12 @@
+Írj egy olyan console alkalmazás játékot mely során 1-40 közötti generált random számot kell eltalálnia a játékosnak, erre összesen 6 lehetősége van, ha eltalálja a számot nyer, tovább a program jelzi, hogy a kitalálandó szám több, vagy kevesebb a találgatáshoz képest. Ha a 11. alkalommal sem sikerül eltalálni a számot, akkor a játékos veszít. Fontos, hogy a random szám végig maradjon ugyanazon az értéken. 
+Hozz létre egy in_game nevű változót, ami egy logikai értéket tárol és ezen változó értékének módosításával lehet majd leállítani a program futását. (1 pont)
+Hozz létre egy változót, ami a találgatási lehetőségek számát tárolja, a kezdő érték 6 legyen és ezt kell csökkenteni minden hibás találgatás során! (1 pont)
+Hozz létre egy változót, ami 1-40 közötti tartományban tárol egy kigenerált random számot, a program futása során végig ugyanazt az értéket tárolja!(1 pont)
+ Kérjen be egy számot 1-40-ig, ezzel a szöveggel:
+"Találd ki a számot(1-40):". (1 pont)
+Jelezze a program, ha az input nem számot tartalmaz, azt is írja ki, ha a szám nincs a kért tartományban. Ilyenkor is csökkenjen 1-el a találgatási lehetőségek száma és kérjen be újra egy számot. (2 pont)
+A bekért inputot alakítsa számmá és hívja meg a későbbiekben részletezett guessing_game metódust és adja át paraméterként a bekért átalakított számot! (2 pont)
+ Hozz létre egy metódust kitalalos néven, ami paraméterként várja a bekért számot. (1 pont)
+Találat esetén írja ki: „Nyerő” és módosítsa in_game értékét úgy, hogy leálljon a program futása. (2 pont)
+Ha a játékos nem találta el a számot, akkor írja ki, hogy a random szám több, vagy kevesebb a találgatáshoz képest, továbbá csökkenjen 1-el a találgatási lehetőségek száma. (2 pont)
+ Ha a találgatási lehetőségek száma lecsökken 0-ra, akkor írja ki a program, hogy „Lúzer” és álljon le a futása! (1 pont)
