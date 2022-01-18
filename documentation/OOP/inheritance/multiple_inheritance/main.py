@@ -1,4 +1,5 @@
 from csirke import Csirke
+from kacsa import Kacsa
 from kacsacsoru_emlos import KacsacsoruEmlos
 from kutya import Kutya
 
@@ -12,3 +13,8 @@ print(f"{tyuk.nev}, {tyuk.suly}, {tyuk.kor}, {tyuk.tollassag}, {tyuk.el}")
 tyuk.meghal()
 print(f"{tyuk.nev}, {tyuk.suly}, {tyuk.kor}, {tyuk.tollassag}, {tyuk.el}")
 
+donald = Kacsa("Donald", 4,6,3,30,60,15,180)
+donald.hapog()
+donald.uszik()
+donald.repules()
+donald.csip()
