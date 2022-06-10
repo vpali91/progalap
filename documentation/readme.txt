@@ -7,3 +7,6 @@
 7. dictionary.py
 8. functions
 9. file
+10. OOP/class intro 1-3
+11. OOP/file_read_oop
+12. inheritance
