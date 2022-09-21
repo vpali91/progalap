@@ -1,0 +1,7 @@
+Kérj be a felhasználótól 2 számot és egy operátort(+,-,/,*).
+Írj egy olyan programot, ami a számokat számmá alakítja, vagy kiírja a felhasználónak ha nem számot adott meg.
+Ha sikerült átalakítani az inputokat számmá, akkor elágazás segítségével döntsd el, hogy melyik operátorral melyik számítást kell elvégezni.
+Az eredményt tárold el egy változóban.
+Írasd ki az eredményt a minta szerint:
+3 + 2 = 5
+6 * 3 = 18
