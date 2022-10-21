@@ -11,8 +11,7 @@ class Cat:
 
     # funkció, a self nem paraméter, hanem csak arra utal, hogy az osztályon belül van, a paramétereket mellé lehet írni vesszővel elválasztva
     def kill(self):
-        global is_alive
-        is_alive = False
+        self.is_alive = False
 
     def eat(self, kaja):
         self.weight += kaja
